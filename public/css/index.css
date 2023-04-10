@@ -1,0 +1,101 @@
+.lesson-four-task-one button:hover {
+    color: red;
+    background-color: yellow;
+}
+
+.lesson-four-task-two a.link:hover + h1.title {
+    background-color: green;
+}
+
+.lesson-four-task-three a:visited, .lesson-four-task-three a:hover {
+    background-color: yellow;
+    color: yellow;
+}
+
+#sidebar > .link:link, #sidebar > .link:hover {
+    background-color: red;
+    color: red;
+}
+
+.lesson-four-task-five .btn:active {
+    background-color: red;
+    color: red;
+}
+
+.lesson-four-task-six .btn:focus {
+    background-color: orange;
+    color: orange;
+}
+
+.lesson-four-task-seven #target:target {
+    background-color: green;
+    color: green;
+}
+
+.lesson-four-task-eight #checkbox:checked ~ #target {
+    background-color: blue;
+    color: white;
+}
+
+.lesson-four-task-nine p:lang(uk) {
+    color: blue;
+}
+
+.lesson-four-task-ten .form-control:enabled {
+    color: red;
+    background-color: yellow;
+}
+
+.lesson-four-task-eleven input:disabled {
+    background-color: yellow;
+}
+
+.lesson-four-task-twelve input:read-write {
+    background-color: yellow;
+}
+
+.lesson-four-task-thirteen input:read-only {
+    background-color: yellow;
+}
+
+.lesson-four-task-thirteen input:read-write {
+    background-color: lightyellow;
+    color:red;
+}
+
+.lesson-four-task-fourteen input:valid {
+    background-color: green;
+}
+
+.lesson-four-task-fourteen input:invalid {
+    background-color: red;
+}
+
+.lesson-four-task-fifteen input:optional, textarea:optional {
+    background-color: red;
+}
+
+.lesson-four-task-sixteen #quantity:out-of-range {
+    background: red;
+}
+
+.lesson-four-task-seventeen #quantity:in-range {
+    background: red;
+}
+
+.lesson-four-task-eighteen :not(input:placeholder-shown) {
+    background: red;
+}
+
+.lesson-four-task-nineteen .btn-group:focus-within {
+    background-color: yellow;
+    color: white;
+}
+
+.lesson-four-task-twenty input:invalid {
+    background-color: red;
+}
+
+.lesson-four-task-twenty-one input:default + label {
+    color: red;
+}
